@@ -117,6 +117,9 @@ document.querySelector("#sendOTP").addEventListener("click", ()=>{
 //=======================================================================>
 
     //Selectiong Html Content
+    let add_img = document.getElementById("pplogo");
+    add_img.setAttribute("src" , "https://playo-website.gumlet.io/playo-website-v2/Logo+with+Trademark_Filled.png")
+    add_img.style.width = "81px"
 
     let inputTag = document.querySelector("#search");
     let showDiv = document.querySelector("#show-results-div");
@@ -168,7 +171,11 @@ document.querySelector("#sendOTP").addEventListener("click", ()=>{
   //===========================================================================>
 
   let id;
-
+document.getElementById("locate-me-text").addEventListener("click" , ()=>{
+    // console.log("hello");
+    let r = debouncingFunction(fetchFunction, 2000)
+    console.log(fetchFunction());
+ })
   //Creating Debouncing Function
   function debouncingFunction(fetchFunction , delay){
 

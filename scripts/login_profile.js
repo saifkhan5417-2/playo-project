@@ -1,5 +1,5 @@
 function profile(){
-    return ` <div id="profile_img"><img src="https://playo-website.gumlet.net/playo_functional/Icons/user_blank.svg" /></div>
+    return ` <div id="profile_img"><img src="https://playo-website.gumlet.io/playo-website-v2/Logo+with+Trademark_Filled.png" /></div>
     
     <div id="inputbox"> <input  class="firstname" type="text" placeholder="First Name*">
      <input  class="lastname" type="text" placeholder="Last Name*" >
